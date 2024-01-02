@@ -28,10 +28,15 @@ public class Events {
         player.attackEntityFrom(new ImmolationDamage(), (event.getEntity() instanceof EntityCreeper || event.getEntity() instanceof EntityEnderman) ? 8 : 4);
 
         if(event.getEntity() instanceof EntityCreeper)
-            event.getEntity().dropItem(CommonProxy.CreeperHeart, 1);
+            if(event.getEntity().world.rand.nextInt(10) < 6)
+                event.getEntity().dropItem(CommonProxy.CreeperHeart, 1);
 
-        if(event.getEntity() instanceof EntityEnderman)
-            event.getEntity().dropItem(CommonProxy.EnderHeart, 1);
+        if(event.getEntity() instanceof EntityEnderman){
+            if(event.getEntity().world.rand.nextInt(10) < 6)
+                event.getEntity().dropItem(CommonProxy.EnderHeart, 1);
+            if(event.getEntity().world.rand.nextInt(10) < 4)
+                event.getEntity().dropItem(CommonProxy.EnergeticEnderEye, 1);
+        }
     }
 
     public static class ImmolationDamage extends DamageSource

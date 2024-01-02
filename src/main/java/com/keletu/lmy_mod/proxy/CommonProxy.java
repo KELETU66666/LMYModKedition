@@ -14,7 +14,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class CommonProxy {
-    public static ItemSpecialSword SwordOfImmolation = new ItemSpecialSword("sword_of_immolation", 10);
+    public static ItemSpecialSword SwordOfImmolation = new ItemSpecialSword("sword_of_immolation", 40);
     public static Item CreeperHeart = new Item().setRegistryName(LMYMod.MOD_ID, "creeper_heart").setTranslationKey("creeper_heart");
     public static Item EnderHeart = new Item().setRegistryName(LMYMod.MOD_ID, "ender_heart").setTranslationKey("ender_heart");
     public static Item EnergeticEnderEye = new Item().setRegistryName(LMYMod.MOD_ID, "energetic_ender_eye").setTranslationKey("energetic_ender_eye");
