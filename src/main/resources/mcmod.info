@@ -1,0 +1,19 @@
+[
+  {
+    "modid": "lmy",
+    "name": "idkn",
+    "description": "A mod for lmy modpack",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "Keletu66666"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": [
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+item.sword_of_immolation.name=Sword of Immolation
+item.creeper_heart.name=Creeper Heart
+item.ender_heart.name=Ender Heart
+item.energetic_ender_eye.name=Endergetic Eye
+
+death.attack.immolate=%s Sacrificed Himself
