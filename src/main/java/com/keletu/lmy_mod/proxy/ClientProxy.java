@@ -29,5 +29,6 @@ public class ClientProxy extends CommonProxy {
         ModelLoader.setCustomModelResourceLocation(CreeperHeart, 0, new ModelResourceLocation(CreeperHeart.getRegistryName(), "inventory"));
         ModelLoader.setCustomModelResourceLocation(EnergeticEnderEye, 0, new ModelResourceLocation(EnergeticEnderEye.getRegistryName(), "inventory"));
         ModelLoader.setCustomModelResourceLocation(EnderHeart, 0, new ModelResourceLocation(EnderHeart.getRegistryName(), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(DarkSlimeball, 0, new ModelResourceLocation(DarkSlimeball.getRegistryName(), "inventory"));
     }
 }
