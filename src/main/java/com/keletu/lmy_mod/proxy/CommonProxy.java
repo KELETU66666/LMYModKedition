@@ -18,7 +18,7 @@ public class CommonProxy {
     public static Item CreeperHeart = new Item().setRegistryName(LMYMod.MOD_ID, "creeper_heart").setTranslationKey("creeper_heart");
     public static Item EnderHeart = new Item().setRegistryName(LMYMod.MOD_ID, "ender_heart").setTranslationKey("ender_heart");
     public static Item EnergeticEnderEye = new Item().setRegistryName(LMYMod.MOD_ID, "energetic_ender_eye").setTranslationKey("energetic_ender_eye");
-
+    public static Item DarkSlimeball = new Item().setRegistryName(LMYMod.MOD_ID, "dark_slimeball").setTranslationKey("dark_slimeball");
     public void preInit(FMLPreInitializationEvent event) {
     }
 

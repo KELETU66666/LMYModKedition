@@ -44,6 +44,7 @@ repositories {
 dependencies {
     deobfCompile "mezz.jei:jei_1.12.2:4.8.5.138"
     deobfCompile "CraftTweaker2:CraftTweaker2-MC1120-Main:1.12-4.1.8.470"
+    deobfCompile "curse.maven:thaumcraft-223628:2629023"
 }
 
 processResources {

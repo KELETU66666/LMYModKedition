@@ -9,6 +9,7 @@ import net.minecraft.util.DamageSource;
 import net.minecraftforge.event.entity.living.LivingDeathEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import thaumcraft.common.entities.monster.EntityThaumicSlime;
 
 @Mod.EventBusSubscriber(modid = LMYMod.MOD_ID)
 public class Events {
@@ -31,11 +32,16 @@ public class Events {
             if(event.getEntity().world.rand.nextInt(10) < 6)
                 event.getEntity().dropItem(CommonProxy.CreeperHeart, 1);
 
-        if(event.getEntity() instanceof EntityEnderman){
-            if(event.getEntity().world.rand.nextInt(10) < 6)
+        if(event.getEntity() instanceof EntityEnderman) {
+            if (event.getEntity().world.rand.nextInt(10) < 6)
                 event.getEntity().dropItem(CommonProxy.EnderHeart, 1);
-            if(event.getEntity().world.rand.nextInt(10) < 4)
+            if (event.getEntity().world.rand.nextInt(10) < 4)
                 event.getEntity().dropItem(CommonProxy.EnergeticEnderEye, 1);
+        }
+
+        if(event.getEntity() instanceof EntityThaumicSlime) {
+            if(event.getEntity().world.rand.nextInt(10) < 4)
+                event.getEntity().dropItem(CommonProxy.DarkSlimeball, 1);
         }
     }
 

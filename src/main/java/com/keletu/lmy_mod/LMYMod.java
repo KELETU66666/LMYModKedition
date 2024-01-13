@@ -16,7 +16,8 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 @Mod(
         modid = LMYMod.MOD_ID,
         name = LMYMod.MOD_NAME,
-        version = LMYMod.VERSION
+        version = LMYMod.VERSION,
+        dependencies = "required-after:thaumcraft"
 )
 public class LMYMod {
 
