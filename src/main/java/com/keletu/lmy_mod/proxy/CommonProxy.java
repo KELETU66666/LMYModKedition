@@ -36,6 +36,7 @@ public class CommonProxy {
         event.getRegistry().register(CreeperHeart);
         event.getRegistry().register(EnderHeart);
         event.getRegistry().register(EnergeticEnderEye);
+        event.getRegistry().register(DarkSlimeball);
     }
 
     @SideOnly(Side.CLIENT)
