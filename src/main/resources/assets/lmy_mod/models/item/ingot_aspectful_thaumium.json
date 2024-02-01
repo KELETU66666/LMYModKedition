@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lmy_mod:items/energetic_ender_eye"
+    "layer0": "lmy_mod:items/ingot_base"
   }
 }

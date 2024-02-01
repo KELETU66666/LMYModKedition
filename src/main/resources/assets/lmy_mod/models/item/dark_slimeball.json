@@ -1,5 +1,5 @@
 {
-  "parent": "item/handheld",
+  "parent": "item/generated",
   "textures": {
     "layer0": "lmy_mod:items/dark_slimeball"
   }

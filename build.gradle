@@ -45,6 +45,8 @@ dependencies {
     deobfCompile "mezz.jei:jei_1.12.2:4.8.5.138"
     deobfCompile "CraftTweaker2:CraftTweaker2-MC1120-Main:1.12-4.1.8.470"
     deobfCompile "curse.maven:thaumcraft-223628:2629023"
+    deobfCompile "curse.maven:codechicken-lib-1-8-242818:2779848"
+    deobfCompile "curse.maven:avaritia-261348:3143349"
 }
 
 processResources {
