@@ -3,5 +3,17 @@ item.creeper_heart.name=Creeper Heart
 item.ender_heart.name=Ender Heart
 item.energetic_ender_eye.name=Endergetic Eye
 item.dark_slimeball.name=Thaumic Slimeball
+item.gear_rainbow_pro.name=Rainbowium Gear
+item.gear_rainbow_pro_max.name=Rainbowimum Gear
+item.plate_rainbow_pro.name=Rainbowium Plate
+item.plate_rainbow_pro_max.name=Rainbowimum Plate
+item.singularity_rainbow_pro.name=Rainbowium Singularity
+item.singularity_rainbow_pro_max.name=Rainbowimum Singularity
+item.ingot_rainbow_pro.name=Rainbowium Ingot
+item.ingot_rainbow_pro_max.name=Rainbowimum Ingot
+item.matter_rainbow_pro.name=Rainbowium Matter
+
+item.infinity_otto.name=Ottttttttttttto
+item.ingot_aspectful_thaumium.name=%s Infused Thaumium
 
 death.attack.immolate=%s Sacrificed Himself

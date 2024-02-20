@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "lmy_mod:items/matter_rainbow_pro",
+    "layer1": "lmy_mod:items/matter_null"
+  }
+}

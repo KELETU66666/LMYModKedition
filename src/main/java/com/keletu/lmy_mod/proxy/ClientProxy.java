@@ -41,8 +41,20 @@ public class ClientProxy extends CommonProxy {
         ModelLoader.setCustomModelResourceLocation(EnderHeart, 0, new ModelResourceLocation(EnderHeart.getRegistryName(), "inventory"));
         ModelLoader.setCustomModelResourceLocation(DarkSlimeball, 0, new ModelResourceLocation(DarkSlimeball.getRegistryName(), "inventory"));
         ModelLoader.setCustomModelResourceLocation(superItem, 0, new ModelResourceLocation(superItem.getRegistryName(), "inventory"));
-        ModelLoader.setCustomModelResourceLocation(ingotAllTheThaumium, 0, new ModelResourceLocation(ingotAllTheThaumium.getRegistryName(), "inventory"));
         ModelLoader.setCustomModelResourceLocation(extremeItem, 0, new ModelResourceLocation(extremeItem.getRegistryName(), "inventory"));
+
+        ModelLoader.setCustomModelResourceLocation(superGear, 0, new ModelResourceLocation(superGear.getRegistryName(), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(extremeGear, 0, new ModelResourceLocation(extremeGear.getRegistryName(), "inventory"));
+
+        ModelLoader.setCustomModelResourceLocation(superPlate, 0, new ModelResourceLocation(superPlate.getRegistryName(), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(extremePlate, 0, new ModelResourceLocation(extremePlate.getRegistryName(), "inventory"));
+
+        ModelLoader.setCustomModelResourceLocation(superSingularity, 0, new ModelResourceLocation(superSingularity.getRegistryName(), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(extremeSingularity, 0, new ModelResourceLocation(extremeSingularity.getRegistryName(), "inventory"));
+
+        ModelLoader.setCustomModelResourceLocation(superMatter, 0, new ModelResourceLocation(superMatter.getRegistryName(), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(ingotAllTheThaumium, 0, new ModelResourceLocation(ingotAllTheThaumium.getRegistryName(), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(infinityOtto, 0, new ModelResourceLocation(infinityOtto.getRegistryName(), "inventory"));
     }
 
     private static void registerItemColourHandlers() {

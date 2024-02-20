@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "lmy_mod:items/infinity16",
+    "layer1": "lmy_mod:items/singularity_rainbow_pro"
+  }
+}

@@ -22,7 +22,15 @@ public class CommonProxy {
     public static Item EnergeticEnderEye = new Item().setRegistryName(LMYMod.MOD_ID, "energetic_ender_eye").setTranslationKey("energetic_ender_eye");
     public static Item DarkSlimeball = new Item().setRegistryName(LMYMod.MOD_ID, "dark_slimeball").setTranslationKey("dark_slimeball");
     public static Item superItem = new ItemSuperium().setRegistryName(LMYMod.MOD_ID, "ingot_rainbow_pro").setTranslationKey("ingot_rainbow_pro");
+    public static Item superMatter = new ItemSuperium().setRegistryName(LMYMod.MOD_ID, "matter_rainbow_pro").setTranslationKey("matter_rainbow_pro");
     public static Item extremeItem = new ItemSuperium().setRegistryName(LMYMod.MOD_ID, "ingot_rainbow_pro_max").setTranslationKey("ingot_rainbow_pro_max");
+    public static Item superGear = new ItemSuperium().setRegistryName(LMYMod.MOD_ID, "gear_rainbow_pro").setTranslationKey("gear_rainbow_pro");
+    public static Item extremeGear = new ItemSuperium().setRegistryName(LMYMod.MOD_ID, "gear_rainbow_pro_max").setTranslationKey("gear_rainbow_pro_max");
+    public static Item superPlate = new ItemSuperium().setRegistryName(LMYMod.MOD_ID, "plate_rainbow_pro").setTranslationKey("plate_rainbow_pro");
+    public static Item extremePlate = new ItemSuperium().setRegistryName(LMYMod.MOD_ID, "plate_rainbow_pro_max").setTranslationKey("plate_rainbow_pro_max");
+    public static Item superSingularity = new ItemSuperium().setRegistryName(LMYMod.MOD_ID, "singularity_rainbow_pro").setTranslationKey("singularity_rainbow_pro");
+    public static Item extremeSingularity = new ItemSuperium().setRegistryName(LMYMod.MOD_ID, "singularity_rainbow_pro_max").setTranslationKey("singularity_rainbow_pro_max");
+    public static Item infinityOtto = new ItemSuperium().setRegistryName(LMYMod.MOD_ID, "infinity_otto").setTranslationKey("infinity_otto");
     public static Item ingotAllTheThaumium = new ItemIngotAThaumium();
 
     public void preInit(FMLPreInitializationEvent event) {
@@ -45,6 +53,14 @@ public class CommonProxy {
         event.getRegistry().register(DarkSlimeball);
         event.getRegistry().register(superItem);
         event.getRegistry().register(extremeItem);
+        event.getRegistry().register(superGear);
+        event.getRegistry().register(extremeGear);
+        event.getRegistry().register(superPlate);
+        event.getRegistry().register(extremePlate);
+        event.getRegistry().register(superSingularity);
+        event.getRegistry().register(extremeSingularity);
+        event.getRegistry().register(superMatter);
+        event.getRegistry().register(infinityOtto);
         event.getRegistry().register(ingotAllTheThaumium);
     }
 
